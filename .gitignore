@@ -1,0 +1,65 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+*.db
+*.sqlite3
+*.log
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+db.sqlite3
+/static/
+media/
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-workspace
+
+# Django migrations (you might want to keep the initial migrations)
+migrations/
+
+# PyCharm
+.idea/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# coverage.py
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# MySQL and PostgreSQL databases
+*.sql
+*.sqlite3
+
+# Django secret key
+django_secrets.json
+
+# Test Reports
+test_reports/
+
+# OS
+.DS_Store
